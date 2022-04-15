@@ -1,9 +1,6 @@
 header {
   border: solid 1px lightblue;
-}
-
-.card-title {
-  /* text-align: center; */
+  font-family: 'Merriweather', serif;
   display: flex;
   justify-content: center;
 }
@@ -15,13 +12,25 @@ img {
   max-height: 75%;
 }
 
-.brown-bear-title {
-  font-size: 150%;
-  padding: 4.5px 0px;
+.sold-out {
+  position: absolute;
+  z-index: 2;
+  top: 5em;
+  left: 3em;
 }
+
 .brown-bear {
   max-width: 57%;
   max-height: 57%;
+}
+
+.brown-bear-title {
+  font-size: 115%;
+  padding: 8px 0px;
+}
+
+.card-text {
+  font-family: 'Merriweather', serif;
 }
 
 h3 {
