@@ -1,3 +1,35 @@
-body{
-background-color: aquamarine;
+header {
+  border: solid 1px lightblue;
+}
+
+.card-title {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 75%;
+  max-height: 75%;
+}
+
+.brown-bear-title {
+  font-size: 150%;
+  padding: 4.5px 0px;
+}
+.brown-bear {
+  max-width: 57%;
+  max-height: 57%;
+}
+
+h3 {
+  background-color: grey;
+  color: yellow;
+}
+
+ul {
+  font-weight: bold;
+  list-style-type: none;
 }
